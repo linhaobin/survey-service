@@ -13,8 +13,8 @@ describe('test/utils/signature', () => {
   })
 
   it('test', () => {
-    const signature = signatureUtil.generateSignature(app.config.weixin.token, 'uxr7kscmbhj', '1514858051955')
+    const signature = signatureUtil.generateSignature(app.config.weixin.token, '1514869647', '1666281940')
 
-    assert(signature === '670fa5bf49765d8216c6880c6fdc219ac8c71470')
+    assert(signature === '95a0aaf886536b492f1f75ae29e6811ba64cde5e')
   })
 })
